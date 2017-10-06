@@ -1,5 +1,5 @@
 body .ui.inverted.segment {
-  background-color: #777;
+  background-color: rgb(70, 79, 116);
 }
 
 #whole.segment {
@@ -13,10 +13,33 @@ body .ui.inverted.segment {
 .ui.borderless.inverted.menu .active.item {
   background-color: black;
 }
+p {
+  font-family: 'Radley', serif;
+  letter-spacing: 1px;
+}
 
 p code {
   background-color: white;
   border-radius: 4px;
+}
+#firstSlidePic {
+  background-image: url('./img/pic2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-y: 20%;
+}
+#secondSlidePic {
+  background-image: url('./img/pic3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+#thirdSlidePic {
+  background-image: url('./img/pic4.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
 }
 
 #slide.row {
@@ -53,6 +76,34 @@ p code {
   background: transparent;
   color: white;
 }
+.hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-image: url('./img/judy.jpg');
+  background-size: cover;
+  margin: 86.6px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.6px solid #64c7cc;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.6px solid #64c7cc;
+}
 
 #bubble.row {
   position: absolute;
@@ -72,6 +123,9 @@ p code {
   font-size: 1.5em;
   line-height: 1.5;
 }
+form.ui.grid {
+  margin: 50px 0;
+}
 
 .ui.footer.container {
   font-size: 1.2em;
@@ -79,4 +133,7 @@ p code {
 
 a.header.item {
   font-family: 'Alegreya SC', serif;
+}
+a {
+  text-decoration: none;
 }
