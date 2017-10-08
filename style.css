@@ -68,7 +68,7 @@ body {
 }
 
 .btn {
-  background: #34b3a0;
+  background: rgba(230, 5, 5, 0.84);
   color: #fff;
   font-size: 1.2rem;
   padding: 1rem 2rem;
@@ -199,4 +199,7 @@ a.header.item {
 }
 a {
   text-decoration: none;
+}
+.credit {
+  font-size: 5pt;
 }
